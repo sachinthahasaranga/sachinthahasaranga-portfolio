@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Projects from '../../api/project'
-import ProjectSingle from '../ProjectSingle/ProjectSingle';
 
 const settings = {
     autoplay: false,
@@ -15,22 +14,8 @@ const settings = {
     cssEase: 'linear'
 };
 
-
 const ProjectSection = (props) => {
 
-    const [open, setOpen] = React.useState(false);
-
-    function handleClose() {
-        setOpen(false);
-    }
-
-    const [state, setState] = useState({
-    })
-
-    const handleClickOpen = (item) => {
-        setOpen(true);
-        setState(item)
-    }
     return (
 
         <section className="wpo-project-section section-padding" id='projects'>
@@ -52,14 +37,14 @@ const ProjectSection = (props) => {
                                 <div className="row align-items-center">
                                     <div className="col-lg-6 col-md-12 col-12">
                                         <div className="wpo-project-img">
-                                            <span onClick={() => handleClickOpen(project)}><img src={project.pImg} alt="" /></span>
+                                            <span><img src={project.pImg} alt="" /></span>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 col-12">
                                         <div className="wpo-project-text">
                                             <div className="wpo-project-text-inner">
                                                 <span>{project.subTitle}</span>
-                                                <h2 onClick={() => handleClickOpen(project)}>{project.title}</h2>
+                                                <h2>{project.title}</h2>
                                                 <p>{project.description}</p>
                                             </div>
                                         </div>

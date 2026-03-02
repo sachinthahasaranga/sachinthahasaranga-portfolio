@@ -7,10 +7,6 @@ import myCV from '../../cv/Sachintha_Niyangoda_ATS_CV.pdf';
 
 const Header = (props) => {
 
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
-
     return (
 
         <header id="header" className={`wpo-site-header ${props.hclass}`}>
