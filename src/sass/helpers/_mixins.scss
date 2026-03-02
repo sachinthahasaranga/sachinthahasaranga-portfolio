@@ -112,9 +112,5 @@
 
 
 @mixin linear-gradient-bg($direction, $gradients...) {
-    background: -webkit-linear-gradient($direction, $gradients);
-    background: -moz-linear-gradient($direction, $gradients);
-    background: -o-linear-gradient($direction, $gradients);
-    background: -ms-linear-gradient($direction, $gradients);
     background: linear-gradient($direction, $gradients);
 }

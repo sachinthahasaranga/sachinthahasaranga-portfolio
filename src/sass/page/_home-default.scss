@@ -754,7 +754,7 @@
             }
 
             @media(max-width:575px) {
-                display: none!important;
+                display: none !important;
             }
         }
 
@@ -798,10 +798,10 @@
         }
 
         .slick-dots {
-            display: none!important;
+            display: none !important;
 
             @media(max-width:575px) {
-                display: block!important;
+                display: block !important;
             }
 
             li button:before {
@@ -836,7 +836,7 @@
             justify-content: flex-end;
             flex-direction: column;
             height: 380px;
-            align-items: end;
+            align-items: flex-end;
 
             @media(max-width:600px) {
                 height: auto;
@@ -955,8 +955,9 @@
             @media(max-width:1399px) {
                 padding: 20px;
             }
+
             @media(max-width:991px) {
-                margin-right:0px;
+                margin-right: 0px;
                 margin-top: 0px;
                 max-width: 100%;
             }
