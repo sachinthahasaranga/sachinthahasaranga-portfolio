@@ -8,11 +8,6 @@ import saImgS1 from '../images/service-single/app/img-1.jpg'
 import saImgS2 from '../images/service-single/app/img-2.jpg'
 import saImgS3 from '../images/service-single/app/img-3.jpg'
 
-import sWaIcon from '../images/service/3.svg'
-import sWaImgS1 from '../images/service-single/webapp/img-1.jpg'
-import sWaImgS2 from '../images/service-single/webapp/img-2.jpg'
-import sWaImgS3 from '../images/service-single/webapp/img-3.jpg'
-
 import sbIcon from '../images/service/4.svg'
 import sbImgS1 from '../images/service-single/brand/img-1.jpg'
 import sbImgS2 from '../images/service-single/brand/img-2.jpg'
@@ -33,25 +28,25 @@ import sUxImgS3 from '../images/service-single/ux/img-3.jpg'
 const Services = [
     {
         Id: '1',
-        sIcon:swIcon,
-        sImgS:swImgS1,
+        sIcon: swIcon,
+        sImgS: swImgS1,
         sTitle: 'Web Application',
-        description:'I have complete 30+ web Application for my clients.',
-        des2:'Lacus, etiam sed est eu tempus need Temer diam congue laoret .',
-        des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
-        ssImg1:swImgS2,
-        ssImg2:swImgS3,
+        description: 'I have complete 30+ web Application for my clients.',
+        des2: 'Lacus, etiam sed est eu tempus need Temer diam congue laoret .',
+        des3: 'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
+        ssImg1: swImgS2,
+        ssImg2: swImgS3,
     },
     {
         Id: '2',
-        sIcon:saIcon,
-        sImgS:saImgS1,
+        sIcon: saIcon,
+        sImgS: saImgS1,
         sTitle: 'Mobile App Design',
-        description:'I have complete 10+ App Design for my clients.',
-        des2:'Lacus, etiam sed est eu tempus need Temer diam congue laoret .',
-        des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
-        ssImg1:saImgS2,
-        ssImg2:saImgS3,
+        description: 'I have complete 10+ App Design for my clients.',
+        des2: 'Lacus, etiam sed est eu tempus need Temer diam congue laoret .',
+        des3: 'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
+        ssImg1: saImgS2,
+        ssImg2: saImgS3,
     },
     // {
     //     Id: '3',
@@ -66,37 +61,37 @@ const Services = [
     // },
     {
         Id: '4',
-        sIcon:sbIcon,
-        sImgS:sbImgS1,
+        sIcon: sbIcon,
+        sImgS: sbImgS1,
         sTitle: 'Brand Design',
-        description:'I have complete 10+ Brand Design for my clients.',
-        des2:'Lacus, etiam sed est eu tempus need Temer diam congue laoret .',
-        des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
-        ssImg1:sbImgS2,
-        ssImg2:sbImgS3,
+        description: 'I have complete 10+ Brand Design for my clients.',
+        des2: 'Lacus, etiam sed est eu tempus need Temer diam congue laoret .',
+        des3: 'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
+        ssImg1: sbImgS2,
+        ssImg2: sbImgS3,
     },
     {
         Id: '5',
-        sIcon:sGIcon,
-        sImgS:sGImgS1,
+        sIcon: sGIcon,
+        sImgS: sGImgS1,
         sTitle: 'Graphic Design',
-        description:'I have complete 200+ Graphic Design for my clients.',
-        des2:'Lacus, etiam sed est eu tempus need Temer diam congue laoret .',
-        des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
-        ssImg1:sGImgS2,
-        ssImg2:sGImgS3,
+        description: 'I have complete 200+ Graphic Design for my clients.',
+        des2: 'Lacus, etiam sed est eu tempus need Temer diam congue laoret .',
+        des3: 'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
+        ssImg1: sGImgS2,
+        ssImg2: sGImgS3,
     },
     {
         Id: '6',
-        sIcon:sUxIcon,
-        sImgS:sUxImgS1,
+        sIcon: sUxIcon,
+        sImgS: sUxImgS1,
         sTitle: 'UX/UI Design',
-        description:'I have complete 200+ UX/UI Design for my clients.',
-        des2:'Lacus, etiam sed est eu tempus need Temer diam congue laoret .',
-        des3:'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
-        ssImg1:sUxImgS2,
-        ssImg2:sUxImgS3,
+        description: 'I have complete 200+ UX/UI Design for my clients.',
+        des2: 'Lacus, etiam sed est eu tempus need Temer diam congue laoret .',
+        des3: 'One way to categorize the activities is in terms of the professional’s area of expertise such as competitive analysis, corporate strategy the activities',
+        ssImg1: sUxImgS2,
+        ssImg2: sUxImgS3,
     },
-]    
+]
 
 export default Services;

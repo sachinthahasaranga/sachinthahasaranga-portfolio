@@ -1,9 +1,6 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 import ListItem from "@mui/material/List";
-import List from "@mui/material/List";
-import Collapse from "@mui/material/Collapse";
 import { Link } from 'react-scroll'
-import { NavLink } from 'react-router-dom'
 import './style.css';
 
 const menus = [
@@ -41,13 +38,7 @@ const menus = [
 
 const MobileMenu = () => {
 
-    const [openId, setOpenId] = useState(0);
-
     const [menuActive, setMenuState] = useState(false);
-
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
 
     return (
         <div className='mobail_menu'>
@@ -59,7 +50,7 @@ const MobileMenu = () => {
                 <ul className="responsivemenu">
                     {menus.map((item, mn) => {
                         return (
-                            <ListItem className={item.id === openId ? 'active' : null} key={mn}>
+                            <ListItem key={mn}>
                                 {/* {item.submenu ?
                                     <Fragment>
                                         <p onClick={() => setOpenId(item.id === openId ? 0 : item.id)}>{item.title}
